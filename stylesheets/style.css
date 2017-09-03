@@ -1,0 +1,66 @@
+/* ----------------------------------- *
+ * Your Styles Here
+ * ----------------------------------- */
+
+/* Header */
+#main-header{
+
+
+}
+
+.site-title{
+  /*Located inside main window*/
+
+  font-family: fantasy;
+  font-weight: bolder;
+  color: #7D1935;
+
+}
+
+.tagline{
+    /*Located inside main window*/
+  font-family: fantasy;
+  font-weight: lighter;
+  color: #7D1935;
+
+}
+
+/* Main Window */
+#main-content{
+
+}
+
+#copyrights{
+  /* located to the right of the window*/
+
+}
+
+.window-map{
+  /* Devides main window to Header logo, content window and side bar*/
+
+}
+
+.main-body-logo{
+  /*Located inside content window*/
+
+}
+
+.blog-posts{
+  /*Located inside content window*/
+
+}
+
+.main-footer{
+  /* located at the bottom of the content  window */
+
+}
+
+/* Side Bar*/
+.side-bar{
+  /* located to the right of the window*/
+
+}
+
+.ad-window{
+/* located in side side bar */
+}
