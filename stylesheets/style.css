@@ -4,13 +4,14 @@
 
 /* Header */
 #main-header{
-
+width: 100%;
+height: auto;
+background-color: red;
 
 }
 
 .site-title{
   /*Located inside main window*/
-
   font-family: fantasy;
   font-weight: bolder;
   color: #7D1935;
@@ -27,21 +28,28 @@
 
 /* Main Window */
 #main-content{
+  width: 80%;
+  height: 100%;
+  float: right;
 
 }
 
 #copyrights{
   /* located to the right of the window*/
-
+  display:block;
 }
 
-.window-map{
+.container{
   /* Devides main window to Header logo, content window and side bar*/
+  height: 100%;
+  width: 100%;
 
 }
 
 .main-body-logo{
   /*Located inside content window*/
+
+
 
 }
 
@@ -58,7 +66,11 @@
 /* Side Bar*/
 .side-bar{
   /* located to the right of the window*/
-
+  float: left;
+  clear: right;
+width: 20%;
+height: 1000px;
+background-color: blue;
 }
 
 .ad-window{
