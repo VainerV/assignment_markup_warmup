@@ -2,19 +2,32 @@
  * Your Styles Here
  * ----------------------------------- */
 
-/* Header */
+ h1 {
+     padding-left: 15px;
+     padding-top: 15px;
+     padding-bottom: 15px;
+ }
+
+
 #main-header{
-width: 100%;
-height: auto;
-background-color: red;
+  font-family: fantasy;
+  font-weight: bolder;
+  color: #7D1935;
+  margin-top: 15px;
+  width: 100%;
+  height: 65px;
 
 }
 
 .site-title{
   /*Located inside main window*/
+
+  background-color: #e3e0cf;
   font-family: fantasy;
   font-weight: bolder;
   color: #7D1935;
+  margin: auto;
+
 
 }
 
@@ -23,6 +36,9 @@ background-color: red;
   font-family: fantasy;
   font-weight: lighter;
   color: #7D1935;
+  background-color: #e3e0cf;
+  margin: 0;
+  margin-bottom: 0;
 
 }
 
@@ -32,11 +48,28 @@ background-color: red;
   height: 100%;
   float: right;
 
+  background-color: #9fa8a3
+
+
+
 }
 
 #copyrights{
   /* located to the right of the window*/
-  display:block;
+
+  color: #7D1935;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  border-style: double;
+  border-width:thin;
+  border-color: blue;
+  border-radius: 5px;
+  width: 60%;
+  height: 15px;
+  clear: both;
+text-align: center;
+
+
 }
 
 .container{
@@ -44,11 +77,21 @@ background-color: red;
   height: 100%;
   width: 100%;
 
+  /*background-color: #e3e0cf;*/
+
+
 }
 
 .main-body-logo{
   /*Located inside content window*/
-
+  width: 70%;
+  background-color: #e3e0cf;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    border-style: double;
+    border-width:thin;
+    border-color: red;
+    border-radius: 5px;
 
 
 }
@@ -60,6 +103,74 @@ background-color: red;
 
 .main-footer{
   /* located at the bottom of the content  window */
+  align-content: center;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
+
+
+}
+
+.first-post{
+  margin-left: 20px;
+  margin-right: 20px;
+  background: green;
+  width: 250px;
+  height: auto;
+  float: left;
+  clear: right;
+  background-color: #e3e0cf;
+  line-height: 1.2;
+  color: #7D1935;
+  font-family: fantasy;
+  letter-spacing: 1.3;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+  border-style: double;
+  border-width:thin;
+  border-color: red;
+  border-radius: 5px;
+}
+
+
+.second-post{
+    background: red;
+     width: 250px;
+    height: auto;
+    float: left;
+    clear: right;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #e3e0cf;
+    line-height: 1.2;
+    color: #7D1935;
+    font-family: fantasy;
+    letter-spacing: 1.3;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    border-style: double;
+    border-width:thin;
+    border-color: red;
+    border-radius: 5px;
+}
+
+.third-post{
+background: gray;
+width: 250px;
+height: auto;
+float: left;
+margin-left: 20px;
+margin-right: 20px;
+background-color: #e3e0cf;
+line-height: 1.2;
+color: #7D1935;
+font-family: fantasy;
+letter-spacing: 1.3;
+margin: 10px 10px 10px 10px;
+padding: 10px 10px 10px 10px;
+border-style: double;
+border-width:thin;
+border-color: red;
+border-radius: 5px;
 
 }
 
@@ -69,10 +180,22 @@ background-color: red;
   float: left;
   clear: right;
 width: 20%;
-height: 1000px;
-background-color: blue;
+height: auto;
+background-color: #c5d5cb;
+line-height: 1.2;
+color: #7D1935;
+font-family: fantasy;
+letter-spacing: 1.3;
 }
 
 .ad-window{
 /* located in side side bar */
+width: 200px;
+float: right;
+margin: 10px 10px 10px 10px;
+padding: 10px 10px 10px 10px;
+border-style: double;
+border-width:thin;
+border-color: red;
+border-radius: 5px;
 }
