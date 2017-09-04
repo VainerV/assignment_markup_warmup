@@ -64,10 +64,13 @@
   border-width:thin;
   border-color: blue;
   border-radius: 5px;
-  width: 60%;
+
   height: 15px;
   clear: both;
-text-align: center;
+  text-align: center;
+
+
+
 
 
 }
@@ -76,6 +79,8 @@ text-align: center;
   /* Devides main window to Header logo, content window and side bar*/
   height: 100%;
   width: 100%;
+
+
 
   /*background-color: #e3e0cf;*/
 
@@ -114,7 +119,7 @@ text-align: center;
   margin-left: 20px;
   margin-right: 20px;
   background: green;
-  width: 250px;
+  width: 30%;
   height: auto;
   float: left;
   clear: right;
@@ -134,7 +139,7 @@ text-align: center;
 
 .second-post{
     background: red;
-     width: 250px;
+     width: 30%;
     height: auto;
     float: left;
     clear: right;
@@ -155,7 +160,7 @@ text-align: center;
 
 .third-post{
 background: gray;
-width: 250px;
+width: 30%;
 height: auto;
 float: left;
 margin-left: 20px;
@@ -191,7 +196,7 @@ letter-spacing: 1.3;
 .ad-window{
 /* located in side side bar */
 width: 200px;
-float: right;
+
 margin: 10px 10px 10px 10px;
 padding: 10px 10px 10px 10px;
 border-style: double;
